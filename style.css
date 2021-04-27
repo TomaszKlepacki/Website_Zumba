@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Raleway';
+    font-size: 1.6rem;
+    position: relative;
+
+}
+
+.navbar-brand img {
+    margin-right: 30px;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: -1;
+
+}
+
+
+
+
+/* Nawigacja */
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+
+
+
+}
+
+nav .navbar-nav,
+nav .fa-bars {
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    color: #CB0D82;
+}
+
+nav.fa-bars {
+    padding: 1rem 2rem;
+
+
+
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    height: 90rem;
+    background-image: url(img/22.png);
+    background-size: cover;
+
+}
+
+.display-1 {
+    font-size: 5rem;
+}
+
+.logo {
+    position: relative;
+
+}
+
+.purple-color {
+    color: rgb(203, 13, 130);
+}
+
+.scroll-fix::before {
+    display: block;
+    margin-top: -3rem;
+    height: 3rem;
+    content: '';
+}
+
+header .btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-size: 2.2rem;
+}
+
+
+#aboutus .about-box {
+    /* height: 30rem;
+    width: 22rem; */
+    object-fit: cover;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    height: 400rem;
+    background-image: url(img/main2.png);
+    background-size: cover;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+}
+
+.about-boxes h3 {
+
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-icon {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.fa-registered {
+    font-size: 1rem;
+    position: absolute;
+
+}
+
+#aboutus .btn-link {
+    font-size: 1.8rem;
+}
+
+#team {
+    padding: 8rem 0;
+    /* background-color:rgb(248,248,248); */
+}
+
+#team .card-img-top {
+    /* height: 60rem; */
+    object-fit: cover;
+}
+
+#team .btn-link {
+    font-weight: bold;
+    font-size: 2rem;
+
+
+}
+
+#contact h3 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+#contact p .t {
+    width: 100rem;
+}
+
+#contact .contact-info .fas {
+    margin-right: .5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#contact .submit-btn {
+    font-size: 1.6rem;
+}
+
+#contact .input-group-lg>.custom-select,
+#contact .input-group-lg>.form-control:not(textarea) {
+    height: calc(1.5em + 2rem + 2px);
+}
